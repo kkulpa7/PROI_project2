@@ -1,5 +1,8 @@
 # Prerequisites
 *.d
+*.cbp
+*.layout
+*.depend
 
 # Compiled Object files
 *.slo
@@ -30,3 +33,5 @@
 *.exe
 *.out
 *.app
+
+bin/
