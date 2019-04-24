@@ -1,9 +1,8 @@
 #include "Group.hpp"
 #include <iostream>
 using namespace std;
-void Group::setTeacher(Teacher teacher){
-    teacher.setData();
-    this->teacher=teacher;
+void Group::setTeacher(){
+    (this->teacher).setData();
 }
 void Group::setAmount(int amount){
     this->amount=amount;
@@ -17,8 +16,7 @@ void Group::setChildren(){
     }
 }
 void Group::setData(){
-    Teacher teacher;
-    setTeacher(teacher);
+    setTeacher();
     cout<<endl;
     int amount;
     cout<<"Give amount of children: ";

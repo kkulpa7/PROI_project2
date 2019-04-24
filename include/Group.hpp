@@ -8,7 +8,7 @@ private:
     Teacher teacher;
     int amount;
     std::vector<Child> children;
-    void setTeacher(Teacher);
+    void setTeacher();
     void setAmount(int);
     void setChildren();
 public:
